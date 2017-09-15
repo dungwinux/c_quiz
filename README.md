@@ -3,17 +3,15 @@ C Quiz
 
 > __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
 
-## Cấu trúc thuật toán
+## Trắc nghiệm
 
-### Trắc nghiệm
-
-1. Câu lệnh  `while(1);`  gây ra lỗi gì ?
+1. Câu lệnh  `for(;;);`  gây ra lỗi gì ?
 
 |**a. Máy tính hỏng**|**b. Infinite Loop**|
 |---|---|
 |**c. Stack Overflow**|**d. Không có lỗi**|
 
-2. 
+2. Câu này có bị lỗi 
 
 ```c++
 int main(){
@@ -32,7 +30,7 @@ void f(){
 }
 ```
 
-2. Bạn A đang lập trình tìm ước nhỏ nhất của n mà bé hơn n, nhưng chương trình không in ra kết quả đúng. Hãy tìm ra lỗi sai
+2. Bạn A đang lập trình tìm ước nhỏ nhất của n mà bé hơn n, nhưng chương trình không in ra kết quả đúng. Hãy tìm ra lỗi sai.
 
 ```c++
 #include <stdio.h>
@@ -57,15 +55,4 @@ int main(){
 }
 ```
 
-4. Dự đoán Output:
-> Đây là câu khó, để đây cho vui. **ĐỪNG LÀM**
-
-```c++
-#include <stdio.h>
-int i;f(char*s){for(i=64;*s;putchar(*s^i?32:*s++))i+=i^90?1:puts("")-26;}
-int main(){
-	f("HELLOWORLD");
-}
-```
-
-5. T
+4. 
