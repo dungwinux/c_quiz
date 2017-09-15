@@ -115,7 +115,7 @@ bool isInt(float f){
     return f==(int)f;
 }
 int main(){
-    float f = 3.14;
+    int f = 3.14;
     printf("%d", isInt(f));
 }
 ```
