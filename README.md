@@ -1,23 +1,40 @@
-C Quiz
+C++ Quiz
 ==============================
 
 > __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
 
 ## Trắc nghiệm
 
-1. Câu lệnh  `for(;;);`  gây ra lỗi gì ?
+1. Chương trình sau gây ra lỗi gì ?
+``` c++
+main(){for(;;);}
+```
 
-|**a. Máy tính hỏng**|**b. Infinite Loop**|
+|**a. Compiler Error**|**b. Infinite Loop**|
 |---|---|
 |**c. Stack Overflow**|**d. Không có lỗi**|
 
-2. Câu này có bị lỗi 
+2. Tác dụng của hàm `atoi()` trong thư viện "stdlib.h"?
 
+|**a. Chuyển từ xâu (string) sang số**|**b. Tính tổng các phần tử của mảng**|
+|---|---|
+|**c. Chuyển từ xâu (char) sang số**|**d. Trả về số phần tử của mảng**|
+
+3. Dùng hàm nào sau đây (trong thư viện ctype.h) để kiểm tra xem một ký tự (char) có phải là chữ cái hay không?
+
+|**a. `isalnum()`**|**b. `isalpha()`**|
+|---|---|
+|**c. `isdigit()`**|**d. `isprint()`**|
+
+
+4. Nhập đoạn code sau vào một tệp 'test.cpp', chương trình có chạy hay không?
 ```c++
-int main(){
-    
-}
+main(){}
 ```
+|**a. Có**|**b. Không**|
+|---|---|
+
+
 ## Bài tập
 
 <!-- Hàm sau in ra gì / trả về kết quả gì ? -->
@@ -42,7 +59,7 @@ int main(){
 }
 ```
 
-3. Tìm tất cả lỗi sai trong code sau:
+3. Tìm **tất cả** lỗi sai trong code sau:
 
 ```c++
 #include <stdio.h>
@@ -55,4 +72,28 @@ int main(){
 }
 ```
 
-4. 
+4. Xóa 1 dòng để chương trình không in ra kết quả với mọi input:
+
+```c++
+#include <stdio.h>
+int main(){
+    int n;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++){
+        if (i % 2)
+            printf("%d\n", i);
+    }
+}
+```
+
+5. Tìm ra **1** lỗi sai:
+
+```c++
+#include <iostream>
+
+int main(){
+    int i = 20;
+    while (i --> 4)
+        cout << n << endl; 
+}
+```
