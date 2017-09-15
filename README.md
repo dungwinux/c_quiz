@@ -97,3 +97,25 @@ int main(){
         cout << n << endl; 
 }
 ```
+
+6. Dự đoán output:
+```c++
+#include <stdio.h>
+int main(){
+    int c = 5;
+    c=++c+c++;
+    printf("%d", c);
+}
+```
+
+7. Dự đoán output:
+```c++
+#include <stdio.h>
+bool isInt(float f){
+    return f==(int)f;
+}
+int main(){
+    int f = 3.14;
+    printf("%d", isInt(f));
+}
+```
