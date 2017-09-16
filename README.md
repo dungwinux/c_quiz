@@ -94,7 +94,7 @@ int main(){
 int main(){
     int i = 20;
     while (i --> 4)
-        cout << n << endl; 
+        cout << i << endl; 
 }
 ```
 
