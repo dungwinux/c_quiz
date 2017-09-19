@@ -6,8 +6,10 @@ C++ Quiz
 ## Trắc nghiệm
 
 1. Chương trình sau gây ra lỗi gì ?
-``` c++
-main(){for(;;);}
+```c++
+int main(){
+    for ( ; ; );
+}
 ```
 
 |**a. Compiler Error**|**b. Infinite Loop**|
@@ -29,11 +31,16 @@ main(){for(;;);}
 
 4. Nhập đoạn code sau vào một tệp 'test.cpp', chương trình có chạy hay không?
 ```c++
-main(){}
+main(){main();}
 ```
 |**a. Có**|**b. Không**|
 |---|---|
 
+5. Phép tính nào sau đây chạy nhanh nhất để tính ra `s = ` 2 mũ 5:
+
+|**a. `s = 2 * 2 * 2 * 2 * 2`**|**b. `s = 1 << 5;`**|
+|---|---|
+|**c. `s = pow(2, 5);` <math.h>**|**d. `s = 2 >> 5;`**|
 
 ## Bài tập
 
@@ -112,10 +119,24 @@ int main(){
 ```c++
 #include <stdio.h>
 bool isInt(float f){
-    return f==(int)f;
+    return f == (int)f;
 }
 int main(){
     int f = 3.14;
     printf("%d", isInt(f));
 }
+```
+
+8. Dự đoán output:
+```c++
+#include <stdio.h>
+using namespace std;
+int main(){
+    int n;
+    string s;
+    cin >> n;
+    getline (cin, s);
+    for (int i=0;i<n;i++){
+        cout << s << endl;
+    }
 ```
