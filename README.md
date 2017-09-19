@@ -16,11 +16,13 @@ int main(){
 |---|---|
 |**c. Stack Overflow**|**d. Không có lỗi**|
 
+
 2. Tác dụng của hàm `atoi()` trong thư viện "stdlib.h"?
 
 |**a. Chuyển từ xâu (string) sang số**|**b. Tính tổng các phần tử của mảng**|
 |---|---|
 |**c. Chuyển từ xâu (char) sang số**|**d. Trả về số phần tử của mảng**|
+
 
 3. Dùng hàm nào sau đây (trong thư viện ctype.h) để kiểm tra xem một ký tự (char) có phải là chữ cái hay không?
 
@@ -36,11 +38,12 @@ main(){main();}
 |**a. Có**|**b. Không**|
 |---|---|
 
-5. Phép tính nào sau đây chạy nhanh nhất để tính ra `s = ` 2 mũ 5:
 
-|**a. `s = 2 * 2 * 2 * 2 * 2`**|**b. `s = 1 << 5;`**|
+5. Ý nghĩa câu lệnh `s = 1 << 5` là gì:
+
+|**a. Gán độ chênh lệch giữa 1 và 5**|**b. Gán `s = 1` rồi `s = 5`**|
 |:---|:---|
-|**c. `s = pow(2, 5);` <math.h>**|**d. `s = 2 >> 5;`**|
+|**c. Gán `s = ` 2 mũ 5**|**d. Gán `s =` 1 mũ 5**|
 
 ## Bài tập
 
