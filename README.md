@@ -39,7 +39,7 @@ main(){main();}
 5. Phép tính nào sau đây chạy nhanh nhất để tính ra `s = ` 2 mũ 5:
 
 |**a. `s = 2 * 2 * 2 * 2 * 2`**|**b. `s = 1 << 5;`**|
-|---|---|
+|:---|:---|
 |**c. `s = pow(2, 5);` <math.h>**|**d. `s = 2 >> 5;`**|
 
 ## Bài tập
