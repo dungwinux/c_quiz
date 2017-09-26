@@ -247,3 +247,31 @@ int main(){
 }
 //...
 ```
+
+16. Dự đoán output:
+```c++
+#include <iostream>
+using namespace std;
+
+int plus(int a, int b){
+    return (a+b); 
+}
+
+int time(int a, int b){
+    return (a*b);
+}
+
+int op(int x, int y, int (*p)(int,int))
+{
+    return (*p)(x,y);
+}
+
+int main(){
+    int m, n;
+    m = op(7, 15, plus);
+    n = op(10, m, time);
+    cout << n;
+    return 0;
+}
+//...
+```
