@@ -150,7 +150,7 @@ int main(){
 
 9. Dự đoán output:
 ```c++
-#include <stdio.h>
+#include <iostream>
 using namespace std;
 int main(){
     string s;
@@ -158,4 +158,32 @@ int main(){
     for (int i = 0; i < 1000; i++){
         cout << s << endl;
     }
+```
+
+10. Dự đoán output:
+```c++
+#include <stdio.h>
+int main(){
+    int a, b, c, s;
+    float p;
+    scanf("%d %d %d", &a, &b, &c);
+	p = (a + b + c) / 2;
+    s = sqrt(p * (p - a) * (p - b) * (p - c));
+    printf("%d", s);
+}
+```
+
+11. Dự đoán giá trị trả về của câu lệnh `fun(1230);`:
+```c++
+#include<math.h>
+//...
+int isSqr(int x){
+    return (sqrt(x) = (int) sqrt(x));
+}
+int fun(int x){
+    int n;
+    x *= x;
+    return (isSqr(x + 4) || isSqr(x - 4));
+}
+//...
 ```
