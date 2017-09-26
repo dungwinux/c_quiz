@@ -216,3 +216,34 @@ int main(){
 	printf("%ld", k);
 }
 ```
+
+14. Dự đoán output:
+```c++
+#include <stdio.h>
+#include <string.h>
+//...
+int main(){
+    char z[200];
+    // scanf("%s",&z);
+    z = "Hello";
+    int len = strlen(z);
+    for (int i = len; i --> 0; ){
+        printf("%c", z[i]);
+    }
+}
+//...
+```
+
+15. Dự đoán output:
+```c++
+#include <stdio.h>
+
+#define m(a, b) (a > b ? a : b)
+//...
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", m(a, b));
+}
+//...
+```
