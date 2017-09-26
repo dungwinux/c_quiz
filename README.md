@@ -1,7 +1,6 @@
 C++ Quiz 
 ==============================
 
-
 ## _Created by Nguyen Tuan Dung_
 
 > __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
@@ -21,13 +20,11 @@ int main(){
 |---|---|
 |**c. Stack Overflow**|**d. Không có lỗi**|
 
-
 2. Tác dụng của hàm `atoi()` trong thư viện "stdlib.h"?
 
 |**a. Chuyển từ xâu (string) sang số**|**b. Tính tổng các phần tử của mảng**|
 |---|---|
 |**c. Chuyển từ xâu (char) sang số**|**d. Trả về số phần tử của mảng**|
-
 
 3. Dùng hàm nào sau đây (trong thư viện ctype.h) để kiểm tra xem một ký tự (char) có phải là chữ cái hay không?
 
@@ -35,14 +32,12 @@ int main(){
 |---|---|
 |**c. `isdigit()`**|**d. `isprint()`**|
 
-
 4. Nhập đoạn code sau vào một tệp 'test.cpp', chương trình có chạy hay không?
 ```c++
 main(){main();}
 ```
 |**a. Có**|**b. Không**|
 |---|---|
-
 
 5. Ý nghĩa câu lệnh `s = 1 << 5` là gì:
 
@@ -57,8 +52,6 @@ main(){main();}
 |**c. Đọc tệp "123.inp" như là input**|**d. Mở tệp "123.inp" để xem**|
 
 ## **Bài tập**
-
-<!-- Hàm sau in ra gì / trả về kết quả gì ? -->
 
 1. Hàm sau in ra gì?
 
@@ -111,7 +104,6 @@ int main(){
 
 ```c++
 #include <iostream>
-
 int main(){
     int i = 20;
     while (i --> 4)
@@ -120,6 +112,7 @@ int main(){
 ```
 
 6. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -130,6 +123,7 @@ int main(){
 ```
 
 7. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 bool isInt(float f){
@@ -142,6 +136,7 @@ int main(){
 ```
 
 8. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -160,6 +155,7 @@ int main(){
 ```
 
 9. Dự đoán output:
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -172,6 +168,7 @@ int main(){
 ```
 
 10. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -185,6 +182,7 @@ int main(){
 ```
 
 11. Dự đoán giá trị trả về của câu lệnh `fun(1230);`:
+
 ```c++
 #include<math.h>
 //...
@@ -200,6 +198,7 @@ int fun(int x){
 ```
 
 12. Dự đoán output:
+
 ```c++
 #include<math.h>
 int main(){
@@ -212,6 +211,7 @@ int main(){
 ```
 
 13. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -229,6 +229,7 @@ int main(){
 ```
 
 14. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -246,9 +247,9 @@ int main(){
 ```
 
 15. Dự đoán output:
+
 ```c++
 #include <stdio.h>
-
 #define m(a, b) (a > b ? a : b)
 //...
 int main(){
@@ -260,23 +261,21 @@ int main(){
 ```
 
 16. Dự đoán output:
+
 ```c++
 #include <iostream>
 using namespace std;
-
+//...
 int plus(int a, int b){
     return (a+b); 
 }
-
 int time(int a, int b){
     return (a*b);
 }
-
 int op(int x, int y, int (*p)(int,int))
 {
     return (*p)(x,y);
 }
-
 int main(){
     int m, n;
     m = op(7, 15, plus);
@@ -288,6 +287,7 @@ int main(){
 ```
 
 17. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 //...
@@ -300,6 +300,7 @@ int main(){
 ```
 
 18. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 //...
@@ -312,6 +313,7 @@ int main(){
 ```
 
 19. Dự đoán output:
+
 ```c++
 #include <stdio.h>
 //...
@@ -324,6 +326,7 @@ int main(){
 ```
 
 20. Dự đoán output:
+
 ```c++
 #include <iostream>
 //...
@@ -336,9 +339,9 @@ int main(int argc, char* argv[]){
 ```
 
 21. Dự đoán output:
+
 ```c++
 #include <stdio.h>
-
 int main(){
     long n;
     long long s = 0, k;
@@ -352,9 +355,9 @@ int main(){
 ```
 
 22. Dự đoán output:
+
 ```c++
 #include <stdio.h>
-
 int main(){
 	long n, m, k, s = 0;
 	scanf("%ld %ld", &n, &m);
@@ -369,11 +372,10 @@ int main(){
 ```
 
 23. Dự đoán output:
+
 ```c++
 #include <stdio.h>
-
 long a[1000];
-
 int main(){
 	long n;
 	scanf("%ld", &n);
@@ -396,9 +398,9 @@ int main(){
 ```
 
 24. Dự đoán output:
+
 ```c++
 #include <stdio.h>
-
 int main(){
 	long n, a[100000];
 	scanf("%ld", &n);
@@ -411,5 +413,4 @@ int main(){
 	}
 	printf(boo ? "YES" : "NO");
 }
-
 ```
