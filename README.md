@@ -1,9 +1,14 @@
-C++ Quiz
+C++ Quiz 
 ==============================
+
+
+## _Created by Nguyen Tuan Dung_
 
 > __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
 
-## Trắc nghiệm
+
+
+## **Trắc nghiệm**
 
 1. Chương trình sau gây ra lỗi gì ?
 ```c++
@@ -45,7 +50,7 @@ main(){main();}
 |:---|:---|
 |**c. Gán `s = ` 2 mũ 5**|**d. Gán `s =` 1 mũ 5**|
 
-## Bài tập
+## **Bài tập**
 
 <!-- Hàm sau in ra gì / trả về kết quả gì ? -->
 
@@ -272,6 +277,30 @@ int main(){
     n = op(10, m, time);
     cout << n;
     return 0;
+}
+//...
+```
+
+17. Dự đoán output:
+```c++
+#include <stdio.h>
+//...
+int main(){
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a & b);
+}
+//...
+```
+
+18. Dự đoán output:
+```c++
+#include <stdio.h>
+//...
+int main(){
+    bool a, b;
+    scanf("%d %d", &a, &b);
+    printf(a ^ b ? "true" : "false");
 }
 //...
 ```
