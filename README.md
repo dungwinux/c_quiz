@@ -133,13 +133,29 @@ int main(){
 8. Dự đoán output:
 ```c++
 #include <stdio.h>
+int main(){
+    long n,d;
+    int h,m,s;
+    scanf("%ld",&n);
+    d=n/86400;
+    n%=86400;
+    h=n/3600;
+    n%=3600;
+    m=n/60;
+    n%=60;
+    s = n;
+    printf("%ld:%02d:%02d:%02d",d,h,m,s);
+}
+```
+
+9. Dự đoán output:
+```c++
+#include <stdio.h>
 using namespace std;
 int main(){
-    int n;
     string s;
-    cin >> n;
     getline (cin, s);
-    for (int i=0;i<n;i++){
+    for (int i = 0; i < 1000; i++){
         cout << s << endl;
     }
 ```
