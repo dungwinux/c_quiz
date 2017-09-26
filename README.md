@@ -199,3 +199,20 @@ int main(){
     return 0;
 }
 ```
+
+13. Dự đoán output:
+```c++
+#include <stdio.h>
+int main(){
+	long a, b, n, k, mod;
+	scanf("%ld %ld %ld", &n, &a, &b);
+	k = a / b;
+	mod = a % b;
+	for (long i = 0; i < n; i++){
+		k = (mod * 10);
+		mod = k % b;
+		k /= b;
+	}
+	printf("%ld", k);
+}
+```
