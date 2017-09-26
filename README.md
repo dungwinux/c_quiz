@@ -50,6 +50,12 @@ main(){main();}
 |:---|:---|
 |**c. Gán `s = ` 2 mũ 5**|**d. Gán `s =` 1 mũ 5**|
 
+6. Ý nghĩa câu lệnh `freopen("123.inp", "r", stdin);` là gì:
+
+|**a. Mở lại tệp `stdin`**|**Mở tệp "123.inp" để đọc**|
+|:---|:---|
+|**c. Đọc tệp "123.inp" như là input**|**d. Mở tệp "123.inp" để xem**|
+
 ## **Bài tập**
 
 <!-- Hàm sau in ra gì / trả về kết quả gì ? -->
@@ -319,14 +325,91 @@ int main(){
 
 20. Dự đoán output:
 ```c++
-//...
 #include <iostream>
-
+//...
 int main(int argc, char* argv[]){
 	for (int i = 0; i < argc; i++){
 		std::cout << argv[i] << std::endl;
 	}
 }
-
 //...
+```
+
+21. Dự đoán output:
+```c++
+#include <stdio.h>
+
+int main(){
+    long n;
+    long long s = 0, k;
+    scanf("%ld", &n);
+    for (long i = 0; i < n; i++){
+    	scanf("%lli", &k);
+    	s+=k;
+    }
+    printf("%lli", s/n);
+}
+```
+
+22. Dự đoán output:
+```c++
+#include <stdio.h>
+
+int main(){
+	long n, m, k, s = 0;
+	scanf("%ld %ld", &n, &m);
+	for (long i = 0; i < n; i++){
+		for (long j = 0; j < m; j++){
+			scanf("%ld", &k);
+			if ((i+j) % 2 == 0) s += k;
+		}
+	}
+	printf("%ld", s);
+}
+```
+
+23. Dự đoán output:
+```c++
+#include <stdio.h>
+
+long a[1000];
+
+int main(){
+	long n;
+	scanf("%ld", &n);
+	for (long i = 0; i < n; i++){
+        scanf("%ld", &a[i]);
+    }
+	for (long i = 0; i < n; i++){
+        for (long j = i + 1; j < n; j++){
+            if (a[i] > a[j]){
+                long tmp = a[i];
+                a[i] = a[j];
+                a[j] = tmp;
+            }
+        }
+    }
+	for (long i = 0; i < n; i++){
+        printf("%ld ", a[i]);
+    }
+}
+```
+
+24. Dự đoán output:
+```c++
+#include <stdio.h>
+
+int main(){
+	long n, a[100000];
+	scanf("%ld", &n);
+	bool boo = true;
+	for (long i = 0; i < n; i++){
+		scanf("%ld", &a[i]);
+	}
+	for (long i = 0; i < (n / 2) && boo; i++){
+		boo = (a[i] == a[n-i-1]);
+	}
+	printf(boo ? "YES" : "NO");
+}
+
 ```
