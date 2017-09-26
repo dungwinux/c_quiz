@@ -304,3 +304,29 @@ int main(){
 }
 //...
 ```
+
+19. Dự đoán output:
+```c++
+#include <stdio.h>
+//...
+int main(){
+    bool a, b;
+    scanf("%d %d", &a, &b);
+    printf(a ^ b ? "true" : "false");
+}
+//...
+```
+
+20. Dự đoán output:
+```c++
+//...
+#include <iostream>
+
+int main(int argc, char* argv[]){
+	for (int i = 0; i < argc; i++){
+		std::cout << argv[i] << std::endl;
+	}
+}
+
+//...
+```
