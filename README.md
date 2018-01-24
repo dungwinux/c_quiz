@@ -1,4 +1,4 @@
-<img src="media/image1.png" width="425" height="235" />
+
 
 Dự án A0 No.4
 
