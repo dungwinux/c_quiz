@@ -6,7 +6,6 @@ C++ Quiz
 > __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
 
 
-
 ## **Trắc nghiệm**
 
 1. Chương trình sau gây ra lỗi gì ?
