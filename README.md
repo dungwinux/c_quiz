@@ -3,7 +3,7 @@ C++ Quiz
 
 ## _Created by Nguyen Tuan Dung_
 
-> __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this.
+> __*Description:*__ This is a project in my class so go see other repos if you don't understand what is this. [Report](/Báo-cáo-Project-A0-No.4.docx)
 
 
 
